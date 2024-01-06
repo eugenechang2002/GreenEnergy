@@ -1,0 +1,77 @@
+.grey{
+    background-color: rgba(200, 195, 195, 0.435);
+    text-align: center;
+}
+
+.light-grey {
+    background-color: whitesmoke;
+    opacity: 0.9;
+    width: 230px;
+    text-align: center;
+}
+
+.curved-corners {
+    border-radius: 2vh;
+}
+
+.h5-label {
+    padding: 10px;
+    margin-left: 56px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: fit-content;
+    border-radius: 1vh;
+    opacity: 0.9;
+    background-size: 210;
+    background-color: #323232;
+    border: 1px solid white;
+    color: white;
+}
+
+h5 {
+    width: fit-content;
+    border-radius: 1vh;
+    padding: 10px;
+    margin: 3px;
+    opacity: 0.9;
+    background-color: #323232;
+    border: 1px solid white;
+    color: white;
+}
+
+p {
+    color: teal;
+    font-size:x-large;
+}
+
+.selection-button {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    width: 12vw;
+    color: white;
+    background: teal;
+    padding: 2vh;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.EMeter {
+    background: linear-gradient(to right, #ffcc00 0%, #feef00 100%);
+    border: none;
+}
+.WMeter {
+    background: linear-gradient(to right, #0033cc 0%, #66ccff 100%);
+    border: none;
+}
+.Light {
+    background: linear-gradient(to right, #00cc99 0%, #ffff00 100%);
+    border: none;
+}
+.Fan {
+    background: linear-gradient(to right, #336699 0%, #99ccff 100%);
+    border: none;
+}
